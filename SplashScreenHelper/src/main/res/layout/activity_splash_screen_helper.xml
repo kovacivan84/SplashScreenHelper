@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".SplashScreenHelperActivity">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/parentContainer"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<ImageView
+			android:id="@+id/backgroundImageContainer"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:contentDescription="@string/background_image"
+			android:visibility="gone"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/horizontalGuideline0"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			app:layout_constraintGuide_percent="0" />
+
+		<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/horizontalGuideline10"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			app:layout_constraintGuide_percent=".1" />
+
+		<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/horizontalGuideline20"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			app:layout_constraintGuide_percent=".2" />
+
+		<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/horizontalGuideline50"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			app:layout_constraintGuide_percent=".5" />
+
+		<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/horizontalGuideline55"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			app:layout_constraintGuide_percent=".55" />
+
+		<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/horizontalGuideline90"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			app:layout_constraintGuide_percent=".9" />
+
+		<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/horizontalGuideline100"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			app:layout_constraintGuide_percent="1" />
+
+		<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/verticalGuideline20"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			app:layout_constraintGuide_percent=".2" />
+
+		<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/verticalGuideline50"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			app:layout_constraintGuide_percent=".5" />
+
+		<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/verticalGuideline80"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			app:layout_constraintGuide_percent=".8" />
+
+		<ImageView
+			android:id="@+id/logoContainer"
+			android:layout_width="200dp"
+			android:layout_height="200dp"
+			android:contentDescription="@string/logo_image"
+			android:src="@drawable/splash"
+			app:layout_constraintVertical_bias="1"
+			app:layout_constraintBottom_toTopOf="@id/divider1"
+			app:layout_constraintEnd_toEndOf="@id/verticalGuideline80"
+			app:layout_constraintStart_toStartOf="@id/verticalGuideline20"
+			app:layout_constraintTop_toTopOf="@id/parentContainer" />
+
+		<View
+			android:id="@+id/divider1"
+			android:layout_height="0dp"
+			android:layout_width="match_parent"
+			app:layout_constraintBottom_toBottomOf="@id/horizontalGuideline55"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="@id/horizontalGuideline50" />
+
+		<TextView
+			android:id="@+id/textContainer"
+			style="@style/TextAppearance.Material3.TitleLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:contentDescription="@string/text_underneath_the_logo"
+			android:textStyle="bold"
+			android:text="@string/default_text"
+			android:visibility="invisible"
+			app:layout_constraintVertical_bias="0"
+			app:layout_constraintEnd_toEndOf="@id/verticalGuideline80"
+			app:layout_constraintStart_toStartOf="@id/verticalGuideline20"
+			app:layout_constraintTop_toBottomOf="@id/divider1" />
+
+		<View
+			android:id="@+id/divider2"
+			android:layout_height="0dp"
+			android:layout_width="match_parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/textContainer" />
+
+		<TextView
+			android:id="@+id/subTextContainer"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			style="@style/TextAppearance.Material3.TitleSmall"
+			android:contentDescription="@string/text_underneath_the_logo"
+			android:text="@string/default_sub_text"
+			android:gravity="center_horizontal"
+			android:visibility="invisible"
+			app:layout_constraintEnd_toEndOf="@id/verticalGuideline80"
+			app:layout_constraintStart_toStartOf="@id/verticalGuideline20"
+			app:layout_constraintTop_toBottomOf="@id/divider2" />
+
+		<ImageView
+			android:id="@+id/imageContainer"
+			android:layout_width="0dp"
+			android:layout_height="75dp"
+			android:contentDescription="@string/image_underneath_the_logo"
+			android:visibility="invisible"
+			app:layout_constraintEnd_toEndOf="@id/verticalGuideline80"
+			app:layout_constraintStart_toStartOf="@id/verticalGuideline20"
+			app:layout_constraintTop_toBottomOf="@id/divider1" />
+
+		<ProgressBar
+			android:id="@+id/progressBarCircular"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:indeterminate="true"
+			android:visibility="gone"
+			app:layout_constraintBottom_toTopOf="@id/horizontalGuideline90"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/horizontalGuideline90" />
+
+		<ProgressBar
+			android:id="@+id/progressBarLinear"
+			style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:indeterminate="true"
+			android:visibility="gone"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent" />
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<VideoView
+		android:id="@+id/videoContainer"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:visibility="gone"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
