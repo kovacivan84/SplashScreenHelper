@@ -116,6 +116,8 @@ SplashScreenHelper(this)
 |FADE_IN|Fades in|
 |FADE_OUT|Fades out|
 
+#### Contact
+If you have new feature suggestions or issues, for now you can open the issue.
 
 ## License
 Copyright Ivan Kovac
