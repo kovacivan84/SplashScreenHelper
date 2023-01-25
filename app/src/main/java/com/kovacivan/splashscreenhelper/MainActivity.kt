@@ -2,8 +2,8 @@ package com.kovacivan.splashscreenhelper
 
 import android.graphics.Color
 import android.graphics.Typeface
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,10 +44,11 @@ class MainActivity : AppCompatActivity() {
 			.pause(1000)
 			.animationType(AnimationType.FLY_IN)
 			.finishOnClick(true)
-			.showVideo(false)
+			.showVideo(true)
 //			.videoResource()
 			.fullscreen(true)
-			.fitVideoToScreen(true)
+			.fitVideoToScreen(false)
+			.loopVideo(false)
 			.start()
 
 		setContentView(R.layout.activity_main)

@@ -47,4 +47,5 @@ internal object Constants {
 	const val DEFAULT_SHOW_VIDEO_CONTAINER = false
 	const val DEFAULT_VIDEO_FIT_SCREEN = false
 	const val DEFAULT_FULLSCREEN = true
+	const val DEFAULT_LOOP_VIDEO = false
 }

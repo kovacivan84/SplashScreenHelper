@@ -43,5 +43,6 @@ internal class SplashScreenHelperModel : java.io.Serializable {
 	var showVideo: Boolean = Constants.DEFAULT_SHOW_VIDEO_CONTAINER
 	var videoResource: Int = R.raw.splashvideo
 	var videoFitScreen: Boolean = Constants.DEFAULT_VIDEO_FIT_SCREEN
+	var loopVideo: Boolean = Constants.DEFAULT_LOOP_VIDEO
 	var fullscreen: Boolean = Constants.DEFAULT_FULLSCREEN
 }

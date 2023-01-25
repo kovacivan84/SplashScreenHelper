@@ -499,6 +499,8 @@ internal class SplashScreenHelperActivity : AppCompatActivity() {
 							mBinding.videoContainer.scaleY = 1f / scaleX
 						}
 					}
+
+					mediaPlayer.isLooping = mSplashScreenHelperModel.loopVideo
 				}
 				setOnTouchListener { v, event ->
 					v.performClick()
@@ -506,7 +508,7 @@ internal class SplashScreenHelperActivity : AppCompatActivity() {
 					false
 				}
 				setOnCompletionListener {
-					finish()
+					this@SplashScreenHelperActivity.finish()
 				}
 				start()
 			}
@@ -520,7 +522,7 @@ internal class SplashScreenHelperActivity : AppCompatActivity() {
 		if (mSplashScreenHelperModel.finishOnClick) {
 			if (mBinding.parentContainer.isVisible) {
 				mBinding.parentContainer.setOnClickListener {
-					finish()
+					this@SplashScreenHelperActivity.finish()
 				}
 			}
 		}
@@ -528,7 +530,7 @@ internal class SplashScreenHelperActivity : AppCompatActivity() {
 
 	private fun finishActivity() {
 		Handler(Looper.getMainLooper()).postDelayed({
-			finish()
+			this@SplashScreenHelperActivity.finish()
 		}, mPauseAfterAnimation)
 	}
 

@@ -385,6 +385,16 @@ class SplashScreenHelper(activity: Activity) {
 		return this
 	}
 
+	/**
+	 * Set video looping indefinitely
+	 *
+	 * Default is false
+	 */
+	fun loopVideo(shouldLoopVideo: Boolean): SplashScreenHelper {
+		mSplashScreenHelperModel.loopVideo = shouldLoopVideo
+		return this
+	}
+
 	fun fullscreen(showFullscreen: Boolean): SplashScreenHelper {
 		mSplashScreenHelperModel.fullscreen = showFullscreen
 		return this
