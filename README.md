@@ -1,11 +1,12 @@
 
 [![](https://jitpack.io/v/kovacivan84/SplashScreenHelper.svg)](https://jitpack.io/#kovacivan84/SplashScreenHelper)
 
-<img src="https://user-images.githubusercontent.com/24279917/214691776-f9ea9dc3-34d7-4663-b891-1b94b13cf49f.gif" width="250"/>
-
 # SplashScreenHelper Android library
 
 SplashScreenHelper is a lightweight, easy-to-use android library that will help you add a splash screen to your app. In a few easy steps, you can add your logo and some text and animate it. Or perhaps you want to add a video. SplashScreenHelper can do that also.
+
+## Screenshots
+<img src="https://user-images.githubusercontent.com/24279917/214691776-f9ea9dc3-34d7-4663-b891-1b94b13cf49f.gif" width="200"/>        <img src="https://user-images.githubusercontent.com/24279917/214692936-9ea5bb87-b067-4d9c-9b83-3552a82808e3.gif" width="200"/>        <img src="https://user-images.githubusercontent.com/24279917/214693552-c43bbfe9-352e-41e8-8843-23d4980f891f.gif" width="200"/>        <img src="https://user-images.githubusercontent.com/24279917/214694158-e96ade24-4412-48be-9922-8ac2f56282a2.gif" width="200"/>
 
 ## Implementation
 #### Gradle
