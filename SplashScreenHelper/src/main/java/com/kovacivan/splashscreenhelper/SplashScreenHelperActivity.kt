@@ -534,6 +534,11 @@ internal class SplashScreenHelperActivity : AppCompatActivity() {
 		}, mPauseAfterAnimation)
 	}
 
+	internal fun setOnComplete(getComplete: SplashScreenHelper.OnComplete) {
+		onComplete = getComplete
+
+	}
+
 	companion object {
 		private const val TAG = "SplashScreenHelperActivity"
 

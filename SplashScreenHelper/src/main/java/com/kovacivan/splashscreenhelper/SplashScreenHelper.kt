@@ -424,6 +424,11 @@ class SplashScreenHelper(activity: Activity) {
 		return this
 	}
 
+	fun onComplete(getComplete: OnComplete) {
+		val splashScreenHelperActivity = SplashScreenHelperActivity()
+		splashScreenHelperActivity.setOnComplete(getComplete)
+	}
+
 	interface OnComplete {
 		fun onComplete()
 	}
