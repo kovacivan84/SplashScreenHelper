@@ -1,6 +1,7 @@
 
 [![](https://jitpack.io/v/kovacivan84/SplashScreenHelper.svg)](https://jitpack.io/#kovacivan84/SplashScreenHelper)
 
+<img src="https://user-images.githubusercontent.com/24279917/214691776-f9ea9dc3-34d7-4663-b891-1b94b13cf49f.gif" width="250"/>
 
 # SplashScreenHelper Android library
 
