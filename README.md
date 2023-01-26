@@ -21,7 +21,7 @@ allprojects {
 ```
 In project build.gradle
 ```bash
-implementation 'com.github.kovacivan84:SplashScreenHelper:1.2'
+implementation 'com.github.kovacivan84:SplashScreenHelper:1.3'
 ```
 ## Usage
 #### Image and text underneath it:
