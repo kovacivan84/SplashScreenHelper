@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f5f0abb-a4c1-4dca-8dfa-2576802203fb" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplashScreenHelper/src/main/java/com/kovacivan/splashscreenhelper/SplashScreenHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/SplashScreenHelper/src/main/java/com/kovacivan/splashscreenhelper/SplashScreenHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplashScreenHelper/src/main/java/com/kovacivan/splashscreenhelper/SplashScreenHelperActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/SplashScreenHelper/src/main/java/com/kovacivan/splashscreenhelper/SplashScreenHelperActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kovacivan/splashscreenhelper/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kovacivan/splashscreenhelper/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplashScreenHelper/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/SplashScreenHelper/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplashScreenHelper/src/main/java/com/kovacivan/splashscreenhelper/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/SplashScreenHelper/src/main/java/com/kovacivan/splashscreenhelper/Constants.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +49,14 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "PROJECT_TRUSTED_KEY": "true",
-    "ScreenRecorder.SavePath": "/Users/ivan/Downloads/device-2023-01-25-222237.webm",
-    "last_opened_file_path": "/Users/ivan/AndroidStudioProjects/SplashScreenHelper/SplashScreenHelper/src/main/res/raw",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PROJECT_TRUSTED_KEY&quot;: &quot;true&quot;,
+    &quot;ScreenRecorder.SavePath&quot;: &quot;/Users/ivan/Downloads/device-2023-01-25-222237.webm&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ivan/AndroidStudioProjects/SplashScreenHelper/SplashScreenHelper/src/main/res/raw&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SplashScreenHelper/src/main/res/raw" />

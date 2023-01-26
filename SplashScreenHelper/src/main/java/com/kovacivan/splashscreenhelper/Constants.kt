@@ -39,8 +39,8 @@ internal object Constants {
 	const val DEFAULT_SHOW_PROGRESS_BAR = false
 	const val DEFAULT_PROGRESS_BAR_TYPE = ProgressBarType.CIRCULAR
 	const val DEFAULT_PROGRESS_BAR_POSITION = ProgressBarPosition.BOTTOM
-	const val DEFAULT_DIVIDER1_HEIGHT = 0
-	const val DEFAULT_DIVIDER2_HEIGHT = 0
+	const val DEFAULT_DIVIDER1_HEIGHT = 10
+	const val DEFAULT_DIVIDER2_HEIGHT = 10
 	const val DEFAULT_PROGRESS_BAR_COLOR = Color.BLUE
 	const val DEFAULT_PROGRESS_BAR_COLOR_HEX = "#0000ff"
 	const val DEFAULT_FINISH_ON_CLICK = false

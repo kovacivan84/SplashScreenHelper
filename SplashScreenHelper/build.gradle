@@ -52,7 +52,7 @@ afterEvaluate {
 
                 groupId = 'com.github.kovacivan84'
                 artifactId = 'SplashScreenHelper'
-                version = '1.0'
+                version = '1.3'
             }
         }
     }
