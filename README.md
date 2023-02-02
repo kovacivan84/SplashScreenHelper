@@ -10,18 +10,16 @@ SplashScreenHelper is a lightweight, easy-to-use android library that will help 
 
 ## Implementation
 #### Gradle
-In root build.gradle
 ```bash
-allprojects {
-  repositories {
-    ...
-    maven { url 'https://jitpack.io' }
-  }
-}
+implementation 'com.kovacivan:SplashScreenHelper:1.3'
 ```
-In project build.gradle
+#### Maven
 ```bash
-implementation 'com.github.kovacivan84:SplashScreenHelper:1.3'
+<dependency>
+    <groupId>com.kovacivan</groupId>
+    <artifactId>SplashScreenHelper</artifactId>
+    <version>1.3</version>
+</dependency>
 ```
 ## Usage
 #### Image and text underneath it:
