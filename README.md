@@ -1,5 +1,6 @@
 
-[![](https://jitpack.io/v/kovacivan84/SplashScreenHelper.svg)](https://jitpack.io/#kovacivan84/SplashScreenHelper)
+[![](https://jitpack.io/v/kovacivan84/SplashScreenHelper.svg)](https://jitpack.io/#kovacivan84/SplashScreenHelper)    [![](https://maven-badges.herokuapp.com/maven-central/com.kovacivan/SplashScreenHelper/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.kovacivan/SplashScreenHelper)
+
 
 # SplashScreenHelper Android library
 
