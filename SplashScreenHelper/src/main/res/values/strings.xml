@@ -1,8 +1,0 @@
-<resources>
-	<string name="background_image">Background image</string>
-	<string name="logo_image">Logo image</string>
-	<string name="image_underneath_the_logo">Image underneath the logo</string>
-	<string name="text_underneath_the_logo">Text underneath the logo</string>
-	<string name="default_text">Splash Screen Helper</string>
-	<string name="default_sub_text">Easiest solution for adding splash screen to your app</string>
-</resources>
