@@ -44,16 +44,23 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
+//afterEvaluate {
+//    publishing {
+//        publications {
+//            release(MavenPublication) {
+//                from components.release
+//
+//                groupId = 'com.github.kovacivan84'
+//                artifactId = 'SplashScreenHelper'
+//                version = '1.3'
+//            }
+//        }
+//    }
+//}
 
-                groupId = 'com.github.kovacivan84'
-                artifactId = 'SplashScreenHelper'
-                version = '1.3'
-            }
-        }
-    }
+ext {
+    PUBLISH_GROUP_ID = 'com.kovacivan'
+    PUBLISH_VERSION = '1.3'
+    PUBLISH_ARTIFACT_ID = 'SplashScreenHelper'
 }
+apply from: 'publish-remote.gradle'
