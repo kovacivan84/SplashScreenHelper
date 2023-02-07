@@ -66,8 +66,4 @@ class MainActivity : AppCompatActivity() {
 
 		setContentView(R.layout.activity_main)
 	}
-
-	companion object {
-		private const val TAG = "MainActivity"
-	}
 }

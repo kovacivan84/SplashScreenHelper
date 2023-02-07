@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5f0abb-a4c1-4dca-8dfa-2576802203fb" name="Changes" comment="Initial commit" />
+    <list default="true" id="5f5f0abb-a4c1-4dca-8dfa-2576802203fb" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kovacivan/splashscreenhelper/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kovacivan/splashscreenhelper/MainActivity.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
